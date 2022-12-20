@@ -1,0 +1,10 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "target": "esnext",
+    "strict": true,
+    "isolatedModules": true,
+  },
+  "include": ["app", "navigation.d.ts", "App.tsx", "app/API.ts"],
+  "exclude": ["**/__mocks__/*", "**/__tests__/*", "**/__stories__/*"]
+}
